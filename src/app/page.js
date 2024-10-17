@@ -1,4 +1,4 @@
-"use client";  // Ensure the component is a Client Component
+"use client";
 
 import { useState } from "react";
 
@@ -104,10 +104,10 @@ const styles = {
     textAlign: 'center',
     outline: 'none',
     transition: 'border 0.3s ease',
-    color: '#333',  // Text color for input box
+    color: '#333',  
   },
   'input::placeholder': {
-    color: '#aaa',  // Placeholder color to make it visible
+    color: '#aaa',
   },
   button: {
     padding: '12px 30px',
